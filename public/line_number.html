@@ -46,7 +46,7 @@
                 delLineNumberCount = 2;
 
             for (var i=0; i < lines.length; i++) {
-                lines[i] = lines[i].substring(delLineNumberCount+2)
+                lines[i] = lines[i].substring(delLineNumberCount+1)
             }
             var textLined = lines.join("\n");
             $("#left").val(textLined)
