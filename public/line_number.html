@@ -42,8 +42,8 @@
             var lines = linedText.split("\n");
             var totalLine = lines.length;
             var delLineNumberCount = (totalLine + "").length;
-            if (delLineNumberCount < 2)
-                delLineNumberCount = 2;
+            if (delLineNumberCount < 3)
+                delLineNumberCount = 3;
 
             for (var i=0; i < lines.length; i++) {
                 lines[i] = lines[i].substring(delLineNumberCount+1)
